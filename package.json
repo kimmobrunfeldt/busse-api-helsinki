@@ -1,0 +1,33 @@
+{
+  "name": "lissu-proxy",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Proxy for Lissu API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node-debug -p 9000 --debug-brk index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kimmobrunfeldt/lissu-proxy.git"
+  },
+  "author": "Kimmo Brunfeldt <kimmobrunfeldt@gmail.com> (http://kimmobrunfeldt.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kimmobrunfeldt/lissu-proxy/issues"
+  },
+  "homepage": "https://github.com/kimmobrunfeldt/lissu-proxy",
+  "dependencies": {
+    "bluebird": "^2.3.11",
+    "compression": "^1.2.1",
+    "connect": "^3.3.2",
+    "cors": "^2.5.2",
+    "express": "^4.10.2",
+    "iconv-lite": "^0.4.4",
+    "moment": "^2.9.0",
+    "newrelic": "^1.17.2",
+    "request": "^2.47.0"
+  }
+}
