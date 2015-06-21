@@ -21,8 +21,6 @@ function transformVehicle(vehicle) {
         latitude: journey.VehicleLocation.Latitude,
         longitude: journey.VehicleLocation.Longitude,
         rotation: journey.Bearing,
-        origin: journey.OriginName.value,
-        destination: journey.DestinationName.value,
         operator: journey.OperatorRef.value,
         direction: journey.DirectionRef.value,
         validUntil: moment(vehicle.ValidUntilTime).toISOString()
