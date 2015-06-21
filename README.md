@@ -2,8 +2,8 @@
 
 This proxy doesn't do anything else than:
 
-* Handles load *(original doesn't)*
-* [Transforms](https://github.com/kimmobrunfeldt/busse-api-hki/blob/master/transform.js) response to a nicer format
+* Handles load
+* [Transforms](https://github.com/kimmobrunfeldt/busse-api-helsinki/blob/master/transform.js) response to a nicer format
 
 ## API
 

@@ -1,8 +1,8 @@
 {
-  "name": "lissu-proxy",
+  "name": "busse-api-helsinki",
   "version": "0.0.0",
   "private": true,
-  "description": "Proxy for Lissu API",
+  "description": "Proxy for HSL real-time API",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kimmobrunfeldt/lissu-proxy.git"
+    "url": "git://github.com/kimmobrunfeldt/busse-api-helsinki.git"
   },
   "author": "Kimmo Brunfeldt <kimmobrunfeldt@gmail.com> (http://kimmobrunfeldt.github.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kimmobrunfeldt/lissu-proxy/issues"
+    "url": "https://github.com/kimmobrunfeldt/busse-api-helsinki/issues"
   },
-  "homepage": "https://github.com/kimmobrunfeldt/lissu-proxy",
+  "homepage": "https://github.com/kimmobrunfeldt/busse-api-helsinki",
   "dependencies": {
     "bluebird": "^2.3.11",
     "compression": "^1.2.1",
